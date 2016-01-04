@@ -1,0 +1,52 @@
+# Build settings
+permalink   : /blog/:year/:title/
+markdown    : kramdown
+highlighter : pygments
+
+paginate: 3
+paginate_path: "/blog/page/:num/"
+comments: true
+
+source: source
+destination: _site
+sass:
+  sass_dir: _scss
+  style: compressed # expanded
+
+# SEO settings
+title: Shane Li
+description: "Shane's personal webpage"
+keywords: "Shane, Li"
+url: http://shaneli.me
+baseurl: "/potatoshane.io"
+# baseurl: ""
+
+# google_analytics:
+repo: http://github.com/potatoshane/potatoshane.io
+disqus_shortname: "shane"
+
+# Author settings
+author:
+  name      : Shane Li
+  job       : Student
+  bio       : "Purdue University Computer Science Class of 2019."
+  thumb     : /images/author.jpg
+  email     : li2137@purdue.edu
+  url       : http://shaneli.me
+  github    : http://github.com/potatoshane
+  #twitter   : http://twitter.com/potatoshane
+  facebook  : https://www.facebook.com/shane.li.37
+  linkedin  : http://linkedin.com/in/shanelipurdue
+
+# navbar pages
+navbar:
+  #- slug: about
+  #  title: About
+   - slug: resume
+     title: Resume
+  # - slug: skills
+  #   title: Skills
+  #- slug: blog
+  #  title: Blog
+
+exclude: ["gulp", "node_modules", "bower", "bower_components", "config.rb", "src", "Gemfile", "Gemfile.lock", ".rvmrc", ".rbenv-version", "package.json", "gulpfile.js", "README.md", "Rakefile", "changelog.md"]

@@ -1,0 +1,21 @@
+---
+layout: home
+---
+
+<section class="hero">
+
+    <div class="hero-inner container">
+
+        <img src="{{ site.author.thumb | prepend: site.baseurl }}" alt="author thumb" class="square">
+        <h1>Hello, I'm Shane!</h1>
+        <h3>{{ site.author.bio }}</h3>
+
+        <a href="files/Resume.pdf" class="btn btn-ghost">Resume</a>
+
+
+        {% include social.html %}
+
+    </div>
+
+
+</section>
