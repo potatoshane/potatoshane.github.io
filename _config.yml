@@ -1,13 +1,8 @@
 # Build settings
 permalink   : /blog/:year/:title/
-markdown    : kramdown
+markdown    : redcarpet
 highlighter : pygments
 
-paginate: 3
-paginate_path: "/blog/page/:num/"
-comments: true
-
-source: source
 destination: _site
 sass:
   sass_dir: _scss
@@ -20,6 +15,10 @@ keywords: "Shane, Li"
 url: http://shaneli.me
 baseurl: "/potatoshane.io"
 # baseurl: ""
+
+gems:
+  - jekyll-sitemap # Create a sitemap using the official Jekyll sitemap gem
+  - jekyll-feed # Create an Atom feed using the official Jekyll feed gem
 
 # google_analytics:
 repo: http://github.com/potatoshane/potatoshane.io
