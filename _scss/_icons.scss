@@ -7,14 +7,13 @@ $icon-comments-o: "\e904";
 $icon-search: "\e906";
 $icon-share: "\e909";
 $icon-google-plus: "\e901";
-$icon-facebook: "\e90a";
+$icon-facebook: "\f003";
 $icon-facebook-rounded: "\e90b";
 $icon-twitter: "\e90c";
 $icon-twitter-rounded: "\e90d";
 $icon-feed: "\e90e";
 $icon-github: "\e90f";
 $icon-linkedin: "\e905";
-$icon-envelope: "\f003";
 
 @font-face {
   font-family: $icons-family;
@@ -53,5 +52,4 @@ $icon-envelope: "\f003";
 .icon-feed:before { content: $icon-feed; }
 .icon-github:before { content: $icon-github; }
 .icon-linkedin:before { content: $icon-linkedin; }
-.icon-envelope:before { content: $icon-envelope; }
 
